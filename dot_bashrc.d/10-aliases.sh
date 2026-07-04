@@ -16,7 +16,7 @@ alias path='echo -e ${PATH//:/\\n}'
 alias ports='ss -tulanp'
 alias myip='curl -s ifconfig.me'
 
-#Git
+# Git
 alias g='git'
 alias gs='git status -sb'
 alias ga='git add'
@@ -55,9 +55,4 @@ alias k9='k9s'
 # Search process by name
 psgrep() {
   ps aux | grep -i "$1" | grep -v grep
-}
-
-# tail multiple logs
-lt() {
-  tail -f "$@" 2>/dev/null
 }

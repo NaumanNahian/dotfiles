@@ -1,0 +1,6 @@
+[user]
+	name = Md Noman
+	signingkey = DF81A8A4ED2022228CB7A07802BFDFBD0B150DEF
+	email = 34379282+NaumanNahian@users.noreply.github.com
+[commit]
+	gpgsign = true

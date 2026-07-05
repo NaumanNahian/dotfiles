@@ -12,7 +12,7 @@ This repository contains my personal dotfiles managed with Chezmoi.
 Clone and apply the dotfiles:
 
 ```bash
-chezmoi init https://github.com/<your-username>/dotfiles.git
+chezmoi init git@github.com:NaumanNahian/dotfiles.git
 chezmoi apply
 ```
 
@@ -114,8 +114,4 @@ chezmoi git pull
 ├── private_dot_config/
 └── README.md
 ```
-
-## License
-
-This repository is for my personal workstation configuration. Feel free to use it as inspiration for your own dotfiles.
 
